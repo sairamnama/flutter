@@ -4,12 +4,12 @@ import 'package:flutter/material.dart';
     } 
     class MyApp extends StatelessWidget { 
       const MyApp({super.key}); 
-      @override 
+      @override
       Widget build(BuildContext context) { 
         return MaterialApp( 
           debugShowCheckedModeBanner: false, 
           home: Scaffold( 
-            appBar: AppBar(title: const Text('Row, Column and Stack')), 
+            appBar: AppBar(title:  Text('Row, Column and Stack')), 
             body: SingleChildScrollView( 
               child: Padding( 
                 padding: const EdgeInsets.all(20.0), 
@@ -88,8 +88,8 @@ import 'package:flutter/material.dart';
                     const Text('STACK LAYOUT', style: TextStyle(fontSize: 22, fontWeight: FontWeight.bold)), 
                     const SizedBox(height: 15), 
                     SizedBox( 
-                      width: 300, 
-                      height: 200, 
+                      width: 500, 
+                      height: 100, 
                       child: Stack( 
                         alignment: Alignment.center, 
                         children: [ 

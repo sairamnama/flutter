@@ -65,7 +65,7 @@ import 'package:provider/provider.dart';
                     ), 
                     const SizedBox(width: 30), 
                     Text('$localCounter', style: const TextStyle(fontSize: 30)), 
-                    const SizedBox(width: 30), 
+canconst SizedBox(width: 30), 
                     ElevatedButton( 
                       onPressed: () { 
                         setState(() { 

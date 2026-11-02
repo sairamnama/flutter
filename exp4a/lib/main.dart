@@ -18,13 +18,13 @@
                   }, 
                   child: const Text('Next Page'), 
                 ), 
-                const SizedBox(height: 16), 
-                ElevatedButton( 
-                  onPressed: () { 
-                    ScaffoldMessenger.of(context).showSnackBar(const SnackBar(content: Text('Hello, World!'))); 
-                  }, 
-                  child: const Text('Msg'), 
-                ), 
+                // const SizedBox(height: 16), 
+                // ElevatedButton( 
+                //   onPressed: () { 
+                //     ScaffoldMessenger.of(context).showSnackBar(const SnackBar(content: Text('Hello, World!'))); 
+                //   }, 
+                //   child: const Text('Msg'), 
+                // ), 
               ], 
             ), 
           ), 
@@ -46,19 +46,12 @@
                 const SizedBox(height: 16), 
                 ElevatedButton( 
                   onPressed: () { 
-                    if (Navigator.canPop(context)) { 
-                      Navigator.pop(context); 
-     
-     
-                    } else {
-  ScaffoldMessenger.of(context).showSnackBar(
-    const SnackBar(
-      content: Text("No back history item"),
-    ),
-  );
-}
+                   
+                      Navigator.pop(context);
                   }, 
-                  child: const Text('Go Back'), 
+                   
+                  child: const Text('Go Back'),
+                   
                 ), 
               ], 
             ), 
